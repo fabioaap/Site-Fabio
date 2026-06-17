@@ -17,7 +17,7 @@ const config: Config = {
         accent: {
           purple: "#8B2BC2",
           red: "#FF2D55",
-          orange: "#F26522",
+          orange: "#CC4400",
         },
       },
       borderColor: {

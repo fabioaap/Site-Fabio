@@ -24,7 +24,7 @@ site no Framer (`fabioaap.framer.ai`). Os valores aqui descritos são refletidos
 | `border`       | `rgba(255,255,255,0.08)`   | Bordas sutis de cards/pílulas              |
 | `accent-purple`| `#8B2BC2`                  | Apenas dentro de assets de projeto         |
 | `accent-red`   | `#FF2D55`                  | Apenas dentro de assets de projeto         |
-| `accent-orange`| `#F26522`                  | CTA principal (botão "Contato", "Bora começar!", dots do processo) |
+| `accent-orange`| `#CC4400`                  | CTA principal (botão "Contato", "Bora começar!", dots do processo) |
 
 ## Tipografia
 
