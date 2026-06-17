@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <rect width="960" height="600" fill="#2A2A2D"/>
+  <text x="50%" y="46%" dominant-baseline="middle" text-anchor="middle"
+    font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="600" fill="#FAFAFA">
+    Engajamento
+  </text>
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle"
+    font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="600" fill="#FF2D55">
+    bootcamps
+  </text>
+</svg>
