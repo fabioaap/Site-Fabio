@@ -24,6 +24,7 @@ site no Framer (`fabioaap.framer.ai`). Os valores aqui descritos são refletidos
 | `border`       | `rgba(255,255,255,0.08)`   | Bordas sutis de cards/pílulas              |
 | `accent-purple`| `#8B2BC2`                  | Apenas dentro de assets de projeto         |
 | `accent-red`   | `#FF2D55`                  | Apenas dentro de assets de projeto         |
+| `accent-orange`| `#F26522`                  | CTA principal (botão "Contato", "Bora começar!", dots do processo) |
 
 ## Tipografia
 
@@ -54,11 +55,13 @@ site no Framer (`fabioaap.framer.ai`). Os valores aqui descritos são refletidos
 - **Seções:** padding vertical `4rem` (mobile) → `7rem` (desktop).
 - **Mobile-first**; breakpoints padrão Tailwind: `sm 640 / md 768 / lg 1024`.
 
-## Componentes-chave
+## Layout desktop
 
-- **Header:** avatar circular (B&W) à esquerda + botão circular de menu à direita;
-  ao abrir, overlay de navegação com âncoras (`#portfolio`, `#sobre`).
-- **Hero:** H1 grande + parágrafo muted.
-- **Portfólio:** título "Portfólio" + lista de cards (imagem arredondada, título, descrição).
-- **Sobre mim:** título + retrato + botão "Download CV" (pílula) + texto.
-- **Footer:** ícones sociais (LinkedIn, Instagram) + crédito "Criado por Fábio".
+- **Header:** 3 colunas — avatar (esquerda) | nav pills "Sobre mim" + "Portfólio" (centro) | botão "Contato" laranja (direita). Mobile: avatar + hambúrguer.
+- **Hero:** texto e parágrafo **centralizados**, ícones sociais abaixo do parágrafo.
+- **Portfólio:** grid **2 colunas** no desktop; 5 projetos (2+2+1).
+- **Sobre mim:** **2 colunas** — texto (esquerda) + foto + botão (direita).
+- **Serviços:** lista de pares em grid 2 colunas, separados por linha horizontal sutil.
+- **Meu processo:** título + botão "Bora começar!" (laranja) alinhados; 4 etapas em 2 colunas (texto + bullets laranja).
+- **Footer:** "Criado por Fábio Alves" (esquerda) + ícones sociais (direita).
+- **Páginas de projeto:** rota `/portfolio/[slug]` com mini-header, hero do projeto e case study.
