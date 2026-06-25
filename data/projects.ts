@@ -1,3 +1,18 @@
+export type ProcessStep = {
+  name: string;
+  description: string;
+};
+
+export type CaseStudy = {
+  context: string;
+  challenge: string;
+  process: ProcessStep[];
+  solution: string;
+  results: string;
+  learnings: string;
+  tools: string[];
+};
+
 export type Project = {
   slug: string;
   title: string;
@@ -5,6 +20,7 @@ export type Project = {
   description: string;
   image: string;
   placeholder: string;
+  caseStudy?: CaseStudy;
 };
 
 export const projects: Project[] = [
